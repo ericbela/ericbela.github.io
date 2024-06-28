@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Business</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+		<div class="header-top-container">
+			<div class="left"><p>Services include:</p></div>
+			
+			<div class="right">
+				<span>Structural Work</span><img src="img/drill.png">
+				<span>Interior Finishes</span><img src="img/painting-a-wall.png">
+				<span>Demo and Site Preparation</span><img src="img/sawing-man.png">
+				<span>Exterior</span><img src="img/shpatel.png"><span><a href="services.html">and more...</a></span>
+			</div>
+		</div>
+	
+	<header class="header" id="header">
+	    <div class="header-container">
+            <div class="logo">
+				<img src="img/logo.jpg" alt="Company Logo">
+                <h1>Diverse Renovations</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="services.html">Services</a></li>
+                    <li class="nav-item"><a href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a href="about.html">About Us</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger" onclick="AnimatedMenuIcon(this)">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+	
+	<section class="contact-us-container">
+			<h2>Request a Quote - Contact Us</h2>
+				<form id="helpForm">
+					<label for="firstName">First Name: </label>
+					<input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+					
+					<label for="lastName">Last Name: </label>
+					<input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+					
+					<label for="email">Email Address: </label>
+					<input type="email" id="email" name="email" placeholder="emailaddress@email.com" required>
+					
+					<label for="phone">Phone Number: </label>
+					<input type="tel" id="phone" name="phone" placeholder="(xxx) xxx-xxxx" required>
+					
+					<label for="address">Address of Project: </label>
+					<input type="text" id="address" name="address" placeholder="Location" required>
+					
+					<label for="help">How We Can Help: </label>
+					<select id="help" name="help" required>
+						<option value="">Select an option</option>
+						<option value="consultation">Consultation</option>
+						<option value="design">Design</option>
+						<option value="construction">Construction</option>
+						<option value="repair">Repair</option>
+						<option value="maintenance">Maintenance</option>
+					</select>
+					
+					<label for="details">Details About the Job: </label>
+					<textarea id="details" name="details" rows="4" required></textarea>
+					
+					<button type="submit">Submit</button>
+				</form>	
+	</section>
+
+	<footer class="footer">
+		<div class="footer-container">
+			<div class="footer-column">
+				<h3>Social Media</h3>
+				<span>Facebook</span><br>
+				<span>Instagram</span><br>
+				<span>X</span><br>
+				<span>TikTok</span><br>
+			</div>
+			<div class="footer-column">
+				<h3>Our Services</h3>
+				<div class="social-icons">
+					<ul>
+						<li>Initial Consultation and Planning</li>
+						<li>Demolition and Site Preparation</li>
+						<li>Structural Work</li>
+						<li>Electrical and Plumbing Installation</li>
+						<li>HVAC and Insulation</li>
+						<li>Interior Finishes</li>
+						<li>Exterior Work</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-column">
+				<h3>Contact Us</h3>
+				<span>Telephone: <a href="tel:">(XXX)XXX-XXXX</a></span><br>
+				<span>Email: <a href="mailto:contactus@compamnyname.ca">contactsus@companyname.ca</a></span><br><br>
+				<span>123 Address Street</span><br>
+				<span>City, Province</span><br>
+				<span>Postal Code</span>
+			</div>
+		</div>
+    </footer>
+	
+    <script src="js/script.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
