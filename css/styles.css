@@ -50,9 +50,18 @@ body, html {
 	line-height:1.8;
 	margin-right:5px;
 }
-.header-top-container img{	
+.header-top-container .left img {
 	height:1rem;
 	opacity:0.75;
+}
+.header-top-container .right img{	
+	margin-left:auto;
+	height:32px;
+	width:32px;
+	background-color:gold;
+	border-radius: 50%;
+	padding: 5px;
+	margin-right:10px;
 }
 .header-top-container span {
 	font-size:1rem;
