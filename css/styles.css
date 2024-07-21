@@ -52,6 +52,10 @@ body, html {
 }
 .header-top-container .left {
 	background-image: url("../img/top-header.jpg");
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
 	opacity:0.75;
 }
 .header-top-container .right img{	
