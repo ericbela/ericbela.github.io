@@ -43,10 +43,6 @@ body, html {
 	line-height:1.8;
 	margin-right:5px;
 }
-.header-top-container .left img{
-	height:100px;
-	opacity:0.4;
-}
 .header-top-container .right img{	
 	margin-left:auto;
 	height:32px;
