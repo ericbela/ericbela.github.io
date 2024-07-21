@@ -33,13 +33,6 @@ body, html {
 	text-decoration: none;
 	color: #fff;
 }
-.left {
-	padding:1rem;
-    display:flex;
-    justify-content:center;
-    flex-direction: row;
-    align-items:center;
-}
 .right {
 	margin-left:auto;
 	flex-direction:row;
