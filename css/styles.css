@@ -50,7 +50,8 @@ body, html {
 	line-height:1.8;
 	margin-right:5px;
 }
-.header-top-container .left img {
+.header-top-container .left {
+	background-image: url("img/top-header.jpg");
 	opacity:0.75;
 }
 .header-top-container .right img{	
