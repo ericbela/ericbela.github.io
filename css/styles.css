@@ -109,11 +109,11 @@ body, html {
 }
 
 .content {
-	background-image: url("../img/Bathroom-1.webp");
+	/*background-image: url("../img/Bathroom-1.webp");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 	height:auto;
 }
 
@@ -216,7 +216,7 @@ body, html {
     min-width: 100%;
     position: relative;
 	border-bottom:1px solid #000;
-	height:590px;
+	height:auto;
 }
 img, video {
 	display: block;
@@ -250,22 +250,21 @@ img, video {
 .modal-boxes-container {
 	display:flex;
 	flex-wrap:wrap;
-	max-width:1200px;	
+	max-width:1200px;
 }
 .modal-box {
-    background: #444;
+    background: #eee;
     padding: 30px;
     border: 1px solid #ddd;
-    width: 30%;
+    width: 32.5%;
     text-align: center;
-	margin:10px;
+	margin:5px;
 }
 .modal-box img {
 	max-width:100%;
 	height:auto;
 }
 .modal-box h2 {
-	color:red;
 	font-size: 1.4rem;
 	font-weight:700;
 	text-transform: uppercase;
@@ -275,7 +274,7 @@ img, video {
 	text-align:justify;	
 	font:1rem Titillium;
 	font-weight:400;
-	color:#fff;
+	color:#2c2c2c;
 }
 form {
     display: flex;
@@ -337,31 +336,23 @@ button:hover {
 /*PAGE CONTAINERS*/
 .services-container {	
 	display:flex;
+	flex-direction:row;
+	justify-content: center;
 	margin:auto;
 	max-width: 1200px;
 	background-color:#fff;
-	opacity: 0.95;
 }
 .services-container h3 {
-	padding:10px;
-	margin-left:5%;	
-}
-.services-container ul {
-	list-style-type:circle;
+	margin-left:10px;
+	padding-top:10px;
 }
 .services-container li {
 	display:block;
-	margin-left:7%;
+	margin-left:10px;
 	padding-bottom: 0.2rem;
 }
-.services-container-column{
-	display:flex;
-	flex-direction:column;
-	width:50%;
-	flex:1;
-}
 .projects-container {
-	display:flez;
+	display:flex;
 	margin:auto;
 	max-width: 1200px;
 	background: #fff;
@@ -431,7 +422,7 @@ button:hover {
 	width:100%;
 	max-width:1200px;
 	background-color:#fff;
-	padding:20px;
+	padding:10px;
 }
 .accordion-expansion ul{
 	list-style:none;
@@ -454,12 +445,13 @@ button:hover {
 }
 .panel {
 	padding:0;
-	margin:auto;
-	background-color: #fff;
+	margin:0 auto;
+	background-color: #eee;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 	width:100%;
+	margin-bottom: 15px;
 }
 
 .panel p {
@@ -472,7 +464,6 @@ button:hover {
   color: red;
 }
 .panel li {
-	;
 	font-weight:700;
 }
 
@@ -489,9 +480,6 @@ button:hover {
     justify-content: space-between;
 	max-width:1200px;
 	margin: auto;
-}
-.footer ul {
-	list-style:none;	
 }
 .footer li {
 	display:block;
@@ -539,9 +527,10 @@ button:hover {
    position: relative;
    display: inline-block;
    width: 100%;
-   height: 200px;
+   height: 150px;
    overflow: hidden;
-   margin: 0 auto;
+   margin: 10px auto;
+   background-color: #eee;
 }
 .testimonial-slider ul.slider li {
     position: absolute;
@@ -617,6 +606,20 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+	.accordion-expansion img {
+		display: block;
+		width:90%;
+		margin:0 auto;
+		min-width:85%;
+		opacity:1;
+	}
+	.content {
+		position:relative;
+		top:65px;
+	}
+	.services-container {	
+		flex-direction:column;
+	}
 	.header-top-container {
 		display:none;
 	}
@@ -631,15 +634,12 @@ button:hover {
 	.overlay {
 		display:none;
 	}
-	.services {
-		width:95%;
-	}
 	.nav-list {
         display: none;
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 60px;
+        top: 65px;
         left: 0;
     }
     .nav-item {
@@ -666,7 +666,7 @@ button:hover {
         display: flex;
     }
 	.hero {
-		min-height:250px;
+		height:auto;
 	}	
 	.hero h2 {
 		margin-top:1.5rem;
