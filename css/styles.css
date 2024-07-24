@@ -109,6 +109,12 @@ body, html {
 	background-size: cover;*/
 	height:auto;
 }
+.content svg {
+	height:32px;
+	width:32px;
+	background-color:#e3e3e3;
+	border-radius: 50%;
+}
 
 /*NAVIGATION*/
 .nav {
