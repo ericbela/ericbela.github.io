@@ -109,7 +109,7 @@ body, html {
 	background-size: cover;*/
 	height:auto;
 }
-.content .icons img {
+.content .icons {
 	height:32px;
 	width:32px;
 	background-color:#e3e3e3;
