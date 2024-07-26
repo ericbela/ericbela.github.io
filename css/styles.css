@@ -342,13 +342,11 @@ button:hover {
 	background-color:#fff;
 }
 .services-container-column span {
-	font-size:1rem;
 	font-weight:bold;
 	line-height:1;
 	margin-right:10px;
 }
 .services-container-column img {
-	display: inline-block;
 	vertical-align: middle;
 }
 .services-container li {
