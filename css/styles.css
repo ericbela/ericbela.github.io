@@ -341,11 +341,12 @@ button:hover {
 	max-width: 1200px;
 	background-color:#fff;
 }
-.services-container span {
-	display: inline-block;
+.services-container-column span {
+	display:flex;
+	flex-direction:column;
 }
-.services-container h3 {
-	display: inline-block;
+.services-container-column h3 {
+	display: flex;
 	margin-left:10px;
 	padding-top:10px;
 }
