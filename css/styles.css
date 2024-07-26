@@ -343,12 +343,13 @@ button:hover {
 }
 .services-container-column span {
 	font-size:1rem;
-	font-weight:900;
+	font-weight:bold;
 	line-height:1;
 	margin-right:10px;
 }
 .services-container-column img {
 	display: inline-block;
+	vertical-align: middle;
 }
 .services-container li {
 	display:block;
