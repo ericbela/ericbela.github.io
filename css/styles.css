@@ -342,9 +342,10 @@ button:hover {
 	background-color:#fff;
 }
 .services-container span {
-	display: inline;
+	display: inline-block;
 }
 .services-container h3 {
+	display: inline-block;
 	margin-left:10px;
 	padding-top:10px;
 }
