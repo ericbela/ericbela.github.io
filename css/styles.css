@@ -110,10 +110,11 @@ body, html {
 	height:auto;
 }
 .content .icons {
-	height:32px;
-	width:32px;
+	height:64px;
+	width:64px;
 	background-color:#e3e3e3;
-	border-radius:75%;
+	border-radius:80%;
+	margin:0 auto;
 }
 
 /*NAVIGATION*/
@@ -343,8 +344,6 @@ button:hover {
 }
 .services-container-column span {
 	font-weight:bold;
-	line-height:1;
-	margin-right:10px;
 }
 .services-container-column img {
 	vertical-align: middle;
