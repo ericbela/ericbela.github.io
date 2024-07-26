@@ -341,6 +341,9 @@ button:hover {
 	max-width: 1200px;
 	background-color:#fff;
 }
+.services-container span {
+	display: inline;
+}
 .services-container h3 {
 	margin-left:10px;
 	padding-top:10px;
