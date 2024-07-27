@@ -345,7 +345,7 @@ button:hover {
 }
 .services-container-column span {
 	font-weight:bold;
-	text-align:center;
+	margin:0 auto;
 }
 .services-container-column img {
 	vertical-align: middle;
