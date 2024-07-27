@@ -113,7 +113,8 @@ body, html {
 	height:64px;
 	width:64px;
 	background-color:#e3e3e3;
-	border-radius:80%;
+	border-radius:20px;
+	border: 1px solid #000;
 	margin:0 auto;
 }
 
@@ -343,8 +344,8 @@ button:hover {
 	background-color:#fff;
 }
 .services-container-column span {
+	padding-top:10px;
 	font-weight:bold;
-	text-align:center;
 }
 .services-container-column img {
 	vertical-align: middle;
