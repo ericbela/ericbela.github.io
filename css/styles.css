@@ -620,7 +620,7 @@ button:hover {
 	.content {
 		position:relative;
 		top:65px;
-		background-image: url("../img/outdoor-reno.jpeg");
+		background-image: url("./img/outdoor-reno.jpeg");
 		min-height: 500px;
 		background-attachment: fixed;
 		background-position: center;
