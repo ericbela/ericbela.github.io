@@ -102,11 +102,11 @@ body, html {
 }
 
 .content {
-	/*background-image: url("../img/Bathroom-1.webp");
+	background-image: url("../img/outdoor-reno.jpeg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;*/
+	background-size: cover;
 	height:auto;
 }
 .content .icons {
@@ -620,13 +620,6 @@ button:hover {
 	.content {
 		position:relative;
 		top:65px;
-		background-image: url("./img/outdoor-reno.jpeg");
-		min-height: 500px;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		opacity: 0.7;
 	}
 	.services-container {	
 		flex-direction:column;
